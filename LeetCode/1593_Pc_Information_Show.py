@@ -34,8 +34,7 @@ def show_sensors():
 
 def command_line(argv):
     parser = argparse.ArgumentParser(
-        description='Display the values of the sensors',add_help=True,
-    )
+        description='Display the values of the sensors',add_help=True,)
     arguments = parser.parse_args()
     show_sensors()
 
